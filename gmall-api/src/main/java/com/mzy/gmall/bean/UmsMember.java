@@ -1,11 +1,12 @@
-package com.mzy.gmail.user.bean;
+package com.mzy.gmall.bean;
 
 
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import java.io.Serializable;
 
-public class UmsMember {
+public class UmsMember implements Serializable {
 
 
     @Id

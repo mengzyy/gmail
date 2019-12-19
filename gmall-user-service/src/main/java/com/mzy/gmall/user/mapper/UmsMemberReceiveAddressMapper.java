@@ -1,4 +1,4 @@
-package com.mzy.gmail.user.mapper;
+package com.mzy.gmall.user.mapper;
 
 
 import com.mzy.gmall.bean.UmsMemberReceiveAddress;

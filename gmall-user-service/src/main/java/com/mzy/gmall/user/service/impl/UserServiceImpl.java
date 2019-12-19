@@ -1,14 +1,16 @@
-package com.mzy.gmail.user.service.impl;
+package com.mzy.gmall.user.service.impl;
 
 
 
-import com.mzy.gmail.user.mapper.UmsMemberReceiveAddressMapper;
-import com.mzy.gmail.user.mapper.UserMapper;
+
+import com.alibaba.dubbo.config.annotation.Service;
+import com.mzy.gmall.user.mapper.UserMapper;
 import com.mzy.gmall.bean.UmsMember;
 import com.mzy.gmall.bean.UmsMemberReceiveAddress;
 import com.mzy.gmall.service.UserService;
+import com.mzy.gmall.user.mapper.UmsMemberReceiveAddressMapper;
+import com.mzy.gmall.user.mapper.UserMapper;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
 
 import java.util.List;
 

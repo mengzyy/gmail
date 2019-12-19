@@ -1,7 +1,7 @@
-package com.mzy.gmail.user.service;
+package com.mzy.gmall.service;
 
-import com.mzy.gmail.user.bean.UmsMember;
-import com.mzy.gmail.user.bean.UmsMemberReceiveAddress;
+import com.mzy.gmall.bean.UmsMember;
+import com.mzy.gmall.bean.UmsMemberReceiveAddress;
 
 import java.util.List;
 

@@ -1,5 +1,6 @@
-package com.mzy.gmail.user.controller;
+package com.mzy.gmall.user.controller;
 
+import com.alibaba.dubbo.config.annotation.Reference;
 import com.mzy.gmall.bean.UmsMember;
 import com.mzy.gmall.bean.UmsMemberReceiveAddress;
 import com.mzy.gmall.service.UserService;
@@ -15,7 +16,7 @@ import java.util.List;
 public class UserController {
 
 
-    @Autowired
+    @Reference
     UserService userService;
 
 
